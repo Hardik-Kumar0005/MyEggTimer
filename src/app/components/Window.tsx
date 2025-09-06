@@ -6,7 +6,7 @@ type WindowProps = {
 
 // This component provides the consistent window styling for all screens.
 const Window: React.FC<WindowProps> = ({ title, children }) => (
-  <div className="bg-gradient-to-br from-green-300 to-yellow-200 min-h-screen flex items-center justify-center font-mono">
+  <div className="bg-gradient-to-br from-green-400 to-yellow-300 min-h-screen flex items-center justify-center font-mono">
     <div className="w-full max-w-sm border-4 border-black rounded-lg shadow-xl bg-[#52C4F5]">
       <div className="bg-[#2E8A9B] text-white p-2 flex justify-between items-center border-b-1 border-black">
         <h1 className="text-2xl font-bold tracking-wider">{title}</h1>

@@ -13,6 +13,7 @@ const EggStart: React.FC<EggStartProps> = ({ onStart }) => (
         alt="egg"
         fill={true}
         priority
+        unoptimized
         className="object-contain"
       />
     </div>

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 export function getEggModeDuration(mode: string): number {
   switch (mode) {
     case 'soft':
-      return 180; // 3 min
+      return 1; // 3 min
     case 'medium':
       return 300; // 5 min
     case 'hard':

@@ -38,10 +38,10 @@ const EggTimerContent: React.FC<{ mode: string }> = ({ mode }) => {
     <div className="flex flex-col items-center w-full mt-16">
       <div className="flex justify-around w-full">
         {finished ? (
-          <Image src="/file.svg" alt="finished egg" width={96} height={96} className="w-24 h-24" />
+          <Image src="/finish.gif" alt="finished egg" width={88} height={88} className="relative scale-280 bottom-8 mb-[22px]" />
         ) : (
           <>
-            <Image src="/gif.gif" alt="chick 1" width={80} height={80} className="relative scale-450 bottom-19" />
+            <Image src="/gif.gif" alt="chick 1" width={80} height={80} unoptimized className="relative scale-450 bottom-19" />
           </>
         )}
       </div>
