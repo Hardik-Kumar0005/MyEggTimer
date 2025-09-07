@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+A delightfully cute and intuitive egg timer application that helps you cook eggs to perfection every time! Whether you prefer soft-boiled, medium, hard, or very hard eggs, HatchEggs has got you covered with adorable animations and precise timing.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+✨ **Beautiful UI Design** - Retro-style window interface with smooth animations  
+🥚 **Multiple Egg Types** - Choose from soft, medium, hard, or very hard boiled eggs  
+⏱️ **Precise Timing** - Accurate countdown timers for each egg type  
+🐥 **Cute Animations** - Animated chicks and eggs to make cooking fun  
+🎨 **Modern Gradient** - Eye-catching cyan-to-teal gradient background  
+📱 **Responsive Design** - Works perfectly on all devices  
+🔊 **Visual Feedback** - Know exactly when your eggs are ready!  
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have Node.js installed on your machine.
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd hatcheggs
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the app in action! 🎉
+
+## 🛠️ Tech Stack
+
+### Frontend Framework
+- **⚡ Next.js 15** - React framework with App Router for optimal performance
+- **⚛️ React 19** - Latest React with modern hooks and components
+- **📘 TypeScript** - Type-safe development experience
+
+### Styling & UI
+- **🎨 Tailwind CSS v4** - Utility-first CSS framework for rapid styling
+- **🖼️ Next.js Image** - Optimized image loading and performance
+- **🌈 Custom Gradients** - Beautiful cyan-to-teal gradient backgrounds
+
+### Development Tools
+- **🔧 ESLint** - Code linting and quality assurance
+- **🚀 Turbopack** - Ultra-fast bundler for development
+- **🎭 Geist Font** - Modern typography from Vercel
+
+### Architecture
+- **📱 Component-based** - Modular and reusable React components
+- **🔄 State Management** - React useState for local state handling
+- **🎯 Event-driven** - Clean navigation between screens
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── 🪟 Window.tsx      # Main window frame component
+│   │   ├── 🎬 EggStart.tsx    # Welcome/start screen
+│   │   ├── 🥚 EggMode.tsx     # Egg type selection
+│   │   ├── ⏱️ EggTimer.tsx    # Timer and countdown logic
+│   │   └── ⏰ timer.tsx       # Timer utility functions
+│   ├── 🎨 globals.css        # Global styles and theme
+│   ├── 📄 layout.tsx         # App layout and metadata
+│   └── 🏠 page.tsx           # Main page component
+└── public/
+    ├── 🎬 *.gif               # Animated assets
+    └── 🖼️ *.svg               # Vector graphics
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎮 How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **🏁 Start**: Click the "Start" button on the welcome screen
+2. **🥚 Choose**: Select your preferred egg type (soft, medium, hard, very hard)
+3. **⏰ Timer**: Watch the cute animations while your timer counts down
+4. **🎉 Done**: Get notified when your perfect eggs are ready!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Egg Cooking Times
 
-## Learn More
+- 🥚 **Soft Boiled**: ~3-4 minutes
+- 🍳 **Medium Boiled**: ~6-7 minutes  
+- 🥚 **Hard Boiled**: ~10-12 minutes
+- 💪 **Very Hard**: ~15+ minutes
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+- ⭐ Star this repository if you find it helpful!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <p>Made with ❤️ and lots of 🥚</p>
+  <p><em>Happy egg cooking! 🍳✨</em></p>
+</div>
