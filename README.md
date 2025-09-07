@@ -1,6 +1,11 @@
 
 A delightfully cute and intuitive egg timer application that helps you cook eggs to perfection every time! Whether you prefer soft-boiled, medium, hard, or very hard eggs, HatchEggs has got you covered with adorable animations and precise timing.
 
+
+https://github.com/user-attachments/assets/2e5fa30f-938a-44e2-b042-81a8a58c6b7e
+
+
+
 ## 🌟 Features
 
 ✨ **Beautiful UI Design** - Retro-style window interface with smooth animations  
