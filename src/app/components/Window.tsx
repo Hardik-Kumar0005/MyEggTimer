@@ -18,7 +18,7 @@ const Window: React.FC<WindowProps> = ({ title, children }) => (
             </svg>
           </div>
         </div>
-      </div>
+      </div >
       <div className="p-6 relative h-80 bg-no-repeat bg-cover" >
          <div className="absolute inset-0 bg-center bg-cover" style={{ backgroundImage: "url('/bg.png')" }}></div>
          <div className="relative z-10 h-full flex flex-col items-center justify-between">
